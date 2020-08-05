@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="SignupForm.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="header">
+        <h2>MicroOffice</h2>
+    </div>
+    <div class="content">
+        <h3 class="content__h3">Registration form</h3>
+        <div class="content__name">
+            <div class="content__formContainer__name">
+                <i class="fa fa-user" aria-hidden="true"></i>
+                <input class="content__name__input" type="text" placeholder="First name...">
+            </div>
+            <div class="content__formContainer__name">
+                <i class="fa fa-user" aria-hidden="true"></i>
+                <input class="content__name__input" type="text" placeholder="Last name...">
+            </div>
+        </div>
+        <div class="content__formContainer">
+            <i class="fa fa-envelope" aria-hidden="true"></i>
+            <input class="content__input" type="email" placeholder="Email address">
+        </div>
+        <div class="content__formContainer">
+            <i class="fa fa-user" aria-hidden="true"></i>
+            <input class="content__input" type="text" placeholder="Nickname">
+        </div>
+        <div class="content__formContainer">
+            <i class="fa fa-lock" aria-hidden="true"></i>
+            <input class="content__input" type="password" placeholder="Create a password">
+        </div>
+        <div class="content__formContainer">
+            <i class="fa fa-unlock-alt" aria-hidden="true"></i>
+            <input class="content__input" type="password" placeholder="Retype your password">
+        </div>
+        <div class="content__terms">
+            <!-- <span class="content__checkbox"><input type="checkbox"> I agree to the <a class="content__link" href="#">terms of use.</a></span> -->
+            <div class="content__checkbox">
+                <input type="checkbox" id="content__checkbox">
+                <label for="content__checkbox"> I agree to the <a class="content__link" href="#">terms of use.</a></label>
+            </div>
+            <button class="content__button"onclick="window.location.href='#'">I ACCEPT - CREATE ACCOUNT</button>
+        </div>
+    </div>
+</body>
+</html>
